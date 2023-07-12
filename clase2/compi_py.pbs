@@ -1,0 +1,7 @@
+#PBS -S /bin/bash
+#
+#PBS -N curva_seno
+#PBS -l nodes=1,walltime=00:05:00
+#
+
+python /home/u196560/carpeta_test/sen_curva.py

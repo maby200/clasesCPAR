@@ -1,0 +1,8 @@
+#PBS -S /bin/bash
+#
+#PBS -N hello
+#PBS -l nodes=1,walltime=00:05:00
+#
+dpcpp -o $HOME/carpeta_test/hello_A $HOME/carpeta_test/hello_A.cpp
+
+$HOME/carpeta_test/hello_A
